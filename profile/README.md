@@ -1,28 +1,40 @@
 # L'Electron Rare ⚡
 
-**Ingénierie embarquée & Intelligence Artificielle**
+**Ingénierie embarquée & intelligence artificielle locale**
 
-Conseil, formation et R&D en systèmes embarqués, IA et infrastructure open-source.
+Conception, mise au point et fiabilisation de systèmes électroniques spécifiques, automatismes et ensembles liés à l'énergie. Conseil et formation PCB, KiCad, microcontrôleurs. R&D en IA qui tourne en local, sans dépendance au cloud.
 
-## 🎓 Formations gratuites
+Ce compte héberge les projets personnels et les dépôts publics de l'atelier. L'outillage matériel & EDA de l'entreprise vit sur l'organisation [L-electron-Rare](https://github.com/L-electron-Rare), la recherche cognitive sur [Hypneum Lab](https://github.com/hypneum-lab).
 
-| Cours | Sujet | Lien |
-|-------|-------|------|
-| Docker & Self-Hosting | Conteneurs, Compose, Traefik | [Commencer](https://moodle.saillant.cc/course/view.php?id=7) |
-| Déployer des LLM locaux | Ollama, RAG, fine-tuning | [Commencer](https://moodle.saillant.cc/course/view.php?id=4) |
-| KiCad pour Makers | PCB de A à Z | [Commencer](https://moodle.saillant.cc/course/view.php?id=3) |
-| IoT de A à Z | MQTT, InfluxDB, Grafana | [Commencer](https://moodle.saillant.cc/course/view.php?id=6) |
-| FreeRTOS embarqué | Tasks, queues, semaphores | [Commencer](https://moodle.saillant.cc/course/view.php?id=5) |
-| ESP32 + IA | TinyML, keyword detection, LLM | [Commencer](https://moodle.saillant.cc/course/view.php?id=2) |
+## 🔧 Projets publics
 
-## 🔧 Projets
+| Projet | Quoi |
+|---|---|
+| [le-mystere-professeur-zacus](https://github.com/electron-rare/le-mystere-professeur-zacus) | Escape room propulsée à l'IA — ESP32-S3, React, pipeline vocal, TTS Piper. Firmware : [ESP32_ZACUS](https://github.com/electron-rare/ESP32_ZACUS). |
+| [AV-Live](https://github.com/electron-rare/AV-Live) | Performance audiovisuelle : SuperCollider + oscilloscope openFrameworks + lanceur SwiftUI. GPL-3. |
+| [mascarade](https://github.com/electron-rare/mascarade) | Orchestration LLM multi-machines — mesh P2P, 8 providers, fine-tuning, outils MCP. |
+| [Kill_LIFE](https://github.com/electron-rare/Kill_LIFE) | Méthodologie *spec-first* agentique pour l'embarqué (ESP32/STM32, gates, evidence packs). |
+| [torch-vqc](https://github.com/electron-rare/torch-vqc) | Circuits quantiques variationnels en pur PyTorch, entraînés par autograd. |
+| [openDIAW.be](https://github.com/electron-rare/openDIAW.be) | Instruments de musique pilotés par IA (drone, grain, glitch, TTS). |
+| [DMX_ESP_Stepper-controller](https://github.com/electron-rare/DMX_ESP_Stepper-controller) | Moteur pas-à-pas piloté en DMX, pour l'Opéra de Montpellier. |
+| [ADB-pour-Framework-Arduino](https://github.com/electron-rare/ADB-pour-Framework-Arduino) | Protocole Apple Desktop Bus sur STM32 / ESP32 / AVR / Teensy. |
+| [ESP32-P10-RGB-32x16-Digital-Clock](https://github.com/electron-rare/ESP32-P10-RGB-32x16-Digital-Clock) | Horloge sur panneaux P10 RGB, RTC DS3231, interface web. |
+| [Constant](https://github.com/electron-rare/Constant) | Espace de travail Zellij à trois volets : Claude sur l'hôte, deux volets Codex isolés en Docker. |
 
-- **[mascarade](https://github.com/electron-rare/mascarade)** — Multi-machine LLM orchestration (P2P mesh, 8 providers, 29 fine-tuned models)
-- **[Kill_LIFE](https://github.com/electron-rare/Kill_LIFE)** — Spec-first agentic methodology for embedded systems
-- **[le-mystere-professeur-zacus](https://github.com/electron-rare/le-mystere-professeur-zacus)** — AI escape room (ESP32-S3 + voice + NPC)
+## 🤖 Modèles
 
-## 🌐 Links
+LoRA spécialisés par domaine (ESP32, STM32, KiCad, SPICE, PlatformIO, IoT, DSP, EMC) entraînés avec mascarade : [huggingface.co/electron-rare](https://huggingface.co/electron-rare).
 
-- 🌍 [Site web](https://www.lelectronrare.fr)
-- 📚 [Formations](https://moodle.saillant.cc)
-- 💻 [IDE en ligne](https://coder.saillant.cc)
+## 📦 Projets clos
+
+- **[ailiance](https://github.com/ailiance)** (2025–2026) — infrastructure d'IA EU-souveraine : passerelle LLM, agent de code ISAAC, benchmark EU AI Act. Développement arrêté en octobre 2026, dépôts publics conservés.
+- **Formations en ligne** (2026) — six cours Docker / LLM locaux / KiCad / IoT / FreeRTOS / ESP32 + IA ; plateforme fermée, supports archivés.
+
+## 🌐 Liens
+
+- 🌍 [lelectronrare.fr](https://www.lelectronrare.fr)
+- 🧪 [saillant.cc](https://saillant.cc) — expérimentations web
+- 🤗 [Hugging Face](https://huggingface.co/electron-rare)
+- 👤 [Profil de Clément Saillant](https://github.com/electron-rare)
+
+*Mis à jour le 2026-10-25.*
